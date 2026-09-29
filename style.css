@@ -317,3 +317,53 @@ span{
     align-items: center;
     text-align: center;
 }
+.certifications h1{
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+}
+
+.cert-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 3rem;
+}
+
+.cert-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.2rem;
+    padding: 2.5rem 2rem;
+    border: 2px solid #290dcc;
+    border-radius: 1rem;
+    transition: 0.3s ease;
+}
+
+.cert-card:hover{
+    box-shadow: 0 0 25px #290dcc;
+    transform: translateY(-5px);
+}
+
+.cert-embed{
+    min-height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cert-embed img{
+    width: 180px;
+    max-width: 100%;
+}
+
+
+.cert-card h2{
+    font-size: 1.9rem;
+}
+
+.cert-issuer{
+    font-size: 1.4rem;
+    color: #bbb;
+    flex-grow: 1;
+}
